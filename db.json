@@ -1,0 +1,403 @@
+{
+  "reservations": {
+    "reservation": [
+      {
+        "reservationIDList": {
+          "uniqueID": [
+            {
+              "type": "Reservation",
+              "idContext": "OPERA",
+              "id": "14654"
+            },
+            {
+              "type": "Confirmation",
+              "idContext": "OPERA",
+              "id": "17650",
+              "idExtension": 1
+            }
+          ]
+        },
+        "sourceOfSale": {
+          "sourceType": "PMS",
+          "sourceCode": "MEXWM"
+        },
+        "roomStay": {
+          "registrationNumber": {
+            "type": "Reservation",
+            "idContext": "OPERA",
+            "id": ""
+          },
+          "currentRoomInfo": {
+            "roomType": "DKNG",
+            "roomNumber": "102"
+          },
+          "roomRates": {
+            "roomRate": [
+              {
+                "total": {
+                  "amountBeforeTax": 150
+                },
+                "totalPoints": {},
+                "rates": {
+                  "rate": [
+                    {
+                      "base": {
+                        "amountBeforeTax": 150,
+                        "currencyCode": "USD"
+                      },
+                      "shareDistributionInstruction": "SPLIT",
+                      "total": {
+                        "amountBeforeTax": 150
+                      },
+                      "requiredPoints": {},
+                      "start": {
+                        "year": 2019,
+                        "month": 12,
+                        "day": 9,
+                        "timezone": -2147483648,
+                        "hour": -2147483648,
+                        "minute": -2147483648,
+                        "second": -2147483648
+                      },
+                      "end": {
+                        "year": 2019,
+                        "month": 12,
+                        "day": 9,
+                        "timezone": -2147483648,
+                        "hour": -2147483648,
+                        "minute": -2147483648,
+                        "second": -2147483648
+                      }
+                    }
+                  ]
+                },
+                "stayProfiles": {
+                  "stayProfile": [
+                    {
+                      "resProfileType": "COMPANY"
+                    },
+                    {
+                      "resProfileType": "GROUP"
+                    },
+                    {
+                      "resProfileType": "TRAVEL_AGENT"
+                    },
+                    {
+                      "resProfileType": "RESERVATION_CONTACT"
+                    },
+                    {
+                      "resProfileType": "BILLING_CONTACT"
+                    },
+                    {
+                      "resProfileType": "SOURCE"
+                    }
+                  ]
+                },
+                "guestCounts": {
+                  "childAges": {},
+                  "adults": 1,
+                  "children": 0
+                },
+                "taxFreeGuestCounts": {
+                  "adults": 0,
+                  "children": 0
+                },
+                "foreignExchange": {},
+                "roomType": "DKNG",
+                "ratePlanCode": "DAILY",
+                "suppressRate": false,
+                "marketCode": "BEN",
+                "marketCodeDescription": "Standard Retail",
+                "sourceOfBusiness": "P",
+                "sourceOfBusinessDescription": "Booked by Property",
+                "numberOfUnits": 1,
+                "roomID": "102",
+                "pseudoRoom": false,
+                "roomTypeCharged": "DKNG",
+                "houseUseOnly": false,
+                "complimentary": false,
+                "fixedRate": false,
+                "discountAllowed": false,
+                "bogoDiscount": false,
+                "start": {
+                  "year": 2019,
+                  "month": 12,
+                  "day": 9,
+                  "timezone": -2147483648,
+                  "hour": -2147483648,
+                  "minute": -2147483648,
+                  "second": -2147483648
+                },
+                "end": {
+                  "year": 2019,
+                  "month": 12,
+                  "day": 9,
+                  "timezone": -2147483648,
+                  "hour": -2147483648,
+                  "minute": -2147483648,
+                  "second": -2147483648
+                }
+              }
+            ]
+          },
+          "guestCounts": {
+            "childAges": {},
+            "adults": 1,
+            "children": 0
+          },
+          "timeSpan": {
+            "startDate": {
+              "year": 2019,
+              "month": 12,
+              "day": 9,
+              "timezone": -2147483648,
+              "hour": -2147483648,
+              "minute": -2147483648,
+              "second": -2147483648
+            },
+            "endDate": {
+              "year": 2019,
+              "month": 12,
+              "day": 9,
+              "timezone": -2147483648,
+              "hour": -2147483648,
+              "minute": -2147483648,
+              "second": -2147483648
+            }
+          },
+          "expectedTimes": {
+            "resExpectedArrivalTime": {
+              "year": 2019,
+              "month": 12,
+              "day": 9,
+              "timezone": -2147483648,
+              "hour": 18,
+              "minute": 15,
+              "second": 51
+            },
+            "resExpectedDepartureTime": {
+              "year": 2019,
+              "month": 12,
+              "day": 9,
+              "timezone": -2147483648,
+              "hour": 0,
+              "minute": 0,
+              "second": 0
+            }
+          },
+          "originalTimeSpan": {
+            "endDate": {
+              "year": 2019,
+              "month": 12,
+              "day": 10,
+              "timezone": -2147483648,
+              "hour": -2147483648,
+              "minute": -2147483648,
+              "second": -2147483648
+            }
+          },
+          "guarantee": {
+            "guaranteeCode": "CHECKED IN",
+            "shortDescription": "Checked In"
+          },
+          "total": {
+            "amountBeforeTax": 150
+          },
+          "totalPoints": {
+            "points": 0
+          },
+          "multiValueAttrs": {},
+          "mobileNotifications": {},
+          "roomNumberLocked": false,
+          "printRate": false
+        },
+        "resGuests": {
+          "resGuest": [
+            {
+              "profileInfo": {
+                "profileIDList": {
+                  "uniqueID": [
+                    {
+                      "type": "Profile",
+                      "idContext": "OPERA",
+                      "id": "16711"
+                    }
+                  ]
+                },
+                "profile": {
+                  "customer": {
+                    "personName": [
+                      {
+                        "surname": "RBTEST1",
+                        "nameType": "PRIMARY"
+                      },
+                      {
+                        "nameType": "EXTERNAL"
+                      }
+                    ],
+                    "anonymization": {},
+                    "language": "E"
+                  },
+                  "addresses": {
+                    "addressInfo": [
+                      {}
+                    ]
+                  },
+                  "telephones": {
+                    "telephoneInfo": [
+                      {
+                        "uniqueID": {
+                          "type": "Communication",
+                          "idContext": "OPERA",
+                          "id": "15371"
+                        },
+                        "telephone": {
+                          "primaryInd": true,
+                          "phoneTechType": "PHONE",
+                          "phoneUseType": "MOBILE",
+                          "phoneNumber": "112233654"
+                        }
+                      }
+                    ]
+                  },
+                  "emails": {},
+                  "profileType": "GUEST"
+                }
+              },
+              "arrivalTransport": {
+                "dateTime": {
+                  "year": 2019,
+                  "month": 12,
+                  "day": 9,
+                  "timezone": -2147483648,
+                  "hour": 0,
+                  "minute": 0,
+                  "second": 0
+                },
+                "transportationReqd": false
+              },
+              "departureTransport": {
+                "dateTime": {
+                  "year": 2019,
+                  "month": 12,
+                  "day": 10,
+                  "timezone": -2147483648,
+                  "hour": 0,
+                  "minute": 0,
+                  "second": 0
+                },
+                "transportationReqd": false
+              },
+              "visaInfo": {},
+              "primary": true
+            }
+          ]
+        },
+        "sharedGuests": {},
+        "comments": {},
+        "reservationPaymentMethods": {
+          "reservationPaymentMethod": [
+            {
+              "authorizationRule": {
+                "code": 2,
+                "amount": {
+                  "amount": 50,
+                  "currencyCode": "USD"
+                }
+              },
+              "paymentMethod": "CA",
+              "folioView": 1
+            },
+            {
+              "paymentMethod": "DB",
+              "folioView": 2
+            },
+            {
+              "paymentCard": {
+                "cardId": {
+                  "type": "CreditCard",
+                  "idContext": "OPERA",
+                  "id": "11660"
+                },
+                "cardType": "VA",
+                "cardNumberMasked": "XXXXXXXXXXXX9299",
+                "expirationDateMasked": "XX/XX",
+                "expirationDateExpired": false,
+                "cardHolderName": "RBTEST1",
+                "processing": "MANUAL",
+                "swiped": false,
+                "cardNumberType": "CARD_NUMBER"
+              },
+              "paymentMethod": "VS",
+              "description": "Visa",
+              "folioView": 3
+            }
+          ]
+        },
+        "cashiering": {
+          "billingPrivileges": {
+            "postingRestriction": true,
+            "preStayCharging": false,
+            "postStayCharging": false,
+            "directBillAuthorized": false,
+            "videoCheckout": false,
+            "autoSettlement": false
+          },
+          "reverseCheckInAllowed": false,
+          "transactionsPosted": true
+        },
+        "housekeeping": {
+          "roomStatus": "INSPECTED"
+        },
+        "linkedReservation": {},
+        "extSystemSync": false,
+        "userDefinedFields": {},
+        "hotelCode": "MEXWM",
+        "roomStayReservation": true,
+        "resStatus": "IN_HOUSE",
+        "computedResStatus": "DUE_OUT",
+        "walkIn": false,
+        "printRate": false,
+        "createBusinessDate": {
+          "year": 2019,
+          "month": 12,
+          "day": 9,
+          "timezone": -2147483648,
+          "hour": -2147483648,
+          "minute": -2147483648,
+          "second": -2147483648
+        },
+        "preRegistered": false,
+        "upgradeEligible": false,
+        "allowAutoCheckin": false,
+        "hasOpenFolio": false,
+        "allowMobileCheckout": false,
+        "allowMobileViewFolio": false,
+        "allowPreRegistration": false,
+        "optedForCommunication": false,
+        "createDateTime": {
+          "year": 2019,
+          "month": 12,
+          "day": 23,
+          "timezone": -2147483648,
+          "hour": 17,
+          "minute": 31,
+          "second": 22
+        },
+        "creatorID": "RYANB15@MARTSTC",
+        "lastModifyDateTime": {
+          "year": 2019,
+          "month": 12,
+          "day": 23,
+          "timezone": -2147483648,
+          "hour": 18,
+          "minute": 16,
+          "second": 14
+        },
+        "lastModifierID": "RYANB15@MARTSTC"
+      }
+    ]
+  },
+  "masterInfoList": {},
+  "success": {}
+}
